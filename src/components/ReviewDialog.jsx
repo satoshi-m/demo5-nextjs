@@ -36,7 +36,7 @@ const ReviewDialog = ({
 	return (
 		<dialog ref={dialog} onMouseDown={handleClick}>
 				<form
-					//action={handleReviewFormSubmission}
+					action={handleReviewFormSubmission}
 					onSubmit={() => {
 						handleClose();
 					}}
