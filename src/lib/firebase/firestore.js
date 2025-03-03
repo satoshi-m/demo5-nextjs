@@ -11,8 +11,7 @@ import {
 	orderBy,
 	Timestamp,
 	runTransaction,
-	where,
-	addDoc,
+	where,	addDoc,
 	getFirestore,
 } from "firebase/firestore";
 
